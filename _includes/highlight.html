@@ -1,0 +1,25 @@
+
+{% for post in site.posts %}
+{% if post.title contains 'Robots' %}
+<div class="highlight row">
+  <a href="{{post.url}}" class="highlight-image">
+  <div class="highlight-lg-image col-md-8" style="background-image: url('{{site.github.url}}/img/{{post.image}}')">
+  </div>
+</a>
+  <div class="highlight-text col-md-4">
+    <div class="panel panel-heading">
+    <h4>{{post.title}}</h4>
+  </div>
+  <div class="subject-text">
+    {{post.excerpt}}
+    <div class="button-wrap">
+      <a href="{{post.url}}"><button>Read More <i class="fa fa-arrow-right"></i></button></a>
+    </div>
+  </div>
+
+  <div class="button-wrap">
+  </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
