@@ -63,6 +63,8 @@ a:hover{
 
   .header-link{
     color:#fff;
+    height: 50px;
+    width: 50px;
   }
 
   .site-brand-title{
@@ -203,6 +205,13 @@ nav a:hover{
   background-repeat: no-repeat;
 
   background-position: center center;
+
+}
+
+.highlight .highlight-lg-image:hover{
+   -moz-filter: blur(1px);
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
 }
 
 .highlight-text .panel{
@@ -259,8 +268,8 @@ nav a:hover{
 
 
 .post-glimpse img{
-  height: 150px;
-  max-width: 250px;
+  height: 180px;
+  max-width: 280px;
 }
 
 .post-glimpse img:hover{
