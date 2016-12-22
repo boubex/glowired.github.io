@@ -4,7 +4,8 @@ title:  "What If We Told You Smartwatches Are Actually Getting Good"
 color:  blue
 width:   6
 height:  1
-tag: trending
+tag: new1
+label : trending
 author: Abouba
 date:   2016-09-17 11:31:49 +0200
 categories: jekyll update

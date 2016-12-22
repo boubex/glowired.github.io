@@ -1,0 +1,161 @@
+
+  <div id="sequence" class="seq">
+
+    <div class="seq-screen">
+      <ul class="seq-canvas">
+
+
+       <!-- first slide starts here-->
+{% for post in site.posts %}
+{% if post.tag == 'new1' %}
+        <li class="seq-step1 seq-in" style="background-image: url('{{site.github.url}}/img/{{post.image}}')">
+          <div data-seq class="seq-title">
+            <h2>{{post.title}}</h2>
+            <a class="seq-button" href="{{post.url}}">Read Now </a>
+          </div>
+
+          <small> by <a href="{{site.github.url}}/img/{{post.image}}">{{post.author}}</a></small>
+        </li>
+
+  {% endif %}
+{% endfor %}
+
+
+        <!-- second slide starts here -->
+{% for post in site.posts %}
+{% if post.tag == 'new2' %}
+
+        <li class="seq-step2" style="background-image: url('{{site.github.url}}/img/{{post.image}}')">
+          <div data-seq class="seq-title">
+            <h2>{{post.title}}</h2>
+            <a class="seq-button" href="{{post.url}}">Read Now </a>
+          </div>
+
+          <small> by <a href="{site.github.url}}/img/{{post.image}}">{{post.author}}</a></small>
+        </li>
+
+          {% endif %}
+{% endfor %}
+
+        <!-- Third slide starts here -->
+
+{% for post in site.posts %}
+{% if post.tag == 'new3' %}
+
+        <li class="seq-step3" style="background-image: url('{{site.github.url}}/img/{{post.image}}')">
+          <div data-seq class="seq-title">
+            <h2>{{post.title}}</h2>
+            <a class="seq-button" href="{{post.url}}">Read Now </a>
+          </div>
+
+          <small> by <a href="{site.github.url}}/img/{{post.image}}">{{post.author}}</a></small>
+        </li>
+  {% endif %}
+{% endfor %}
+
+        <!-- fourth slide starts here -->
+
+{% for post in site.posts %}
+{% if post.tag == 'new4' %}
+
+        <li class="seq-step4" style="background-image: url('{{site.github.url}}/img/{{post.image}}')">
+          <div data-seq class="seq-title">
+            <h2>{{post.title}}</h2>
+            <a class="seq-button" href="{{post.url}}">Read Now </a>
+          </div>
+
+          <small>by <a href="{site.github.url}}/img/{{post.image}}">{{post.author}}</a></small>
+        </li>
+  {% endif %}
+{% endfor %}
+
+
+        <!-- fith slide starts here -->
+{% for post in site.posts %}
+{% if post.tag == 'new5' %}
+
+
+
+        <li class="seq-step5" style="background-image: url('{{site.github.url}}/img/{{post.image}}')">
+          <div data-seq class="seq-title">
+            <h2>{{post.title}}</h2>
+            <a class="seq-button" href="{{post.url}}">Read Now </a>
+          </div>
+
+          <small> by <a href="{site.github.url}}/img/{{post.image}}">{{post.author}}</a></small>
+        </li>
+      </ul>
+    </div>
+  {% endif %}
+{% endfor %}
+    <!-- all the slide ends here -->
+
+    <ul role="navigation" aria-label="Pagination" class="seq-pagination">
+
+
+    {% for post in site.posts %}
+
+
+    {% if post.tag == 'new1' %}  
+    <li><a href="#step1" rel="step1" title="Go to slide 1">{{post.title}}</a></li>
+
+         {% endif %}
+    {% endfor %}
+
+
+ {% for post in site.posts %}
+
+    {% if post.tag == 'new2' %}
+      <li><a href="#step2" rel="step2" title="Go to slide 2">{{post.title}}</a></li>   
+      {% endif %}
+    {% endfor %}
+
+
+{% for post in site.posts %}
+
+
+    {% if post.tag == 'new3' %}  
+      <li><a href="#step3" rel="step3" title="Go to slide 3">{{post.title}}</a></li>
+  {% endif %}
+    {% endfor %}
+
+
+ {% for post in site.posts %}
+
+    {% if post.tag == 'new4' %}
+
+      <li><a href="#step4" rel="step4" title="Go to slide 4">{{post.title}}</a></li>
+
+
+        {% endif %}
+    {% endfor %}
+
+
+     {% for post in site.posts %}
+
+    {% if post.tag == 'new5' %}
+
+      <li><a href="#step5" rel="step5" title="Go to slide 5">{{post.title}}</a></li>
+
+
+         {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+
+  <script src="{{site.github.url}}/pop-slide/scripts/imagesloaded.pkgd.min.js"></script>
+  <script src="{{site.github.url}}/pop-slide/scripts/hammer.min.js"></script>
+  <script src="{{site.github.url}}/pop-slide/scripts/sequence.min.js"></script>
+  <script src="{{site.github.url}}/pop-slide/scripts/sequence-theme.pop-slide.js"></script>
+
+
+
+  <style>
+    
+
+
+
+  </style>
+
+
+

@@ -28,7 +28,7 @@ layout: default
   <div class="ads-trends">
     <h1 class="trending text-uppercase">Other Articles</h1>
     {% for post in site.posts %}
-    {% if post.tag == 'trending' %}
+    {% if post.label == 'trending' %}
     <div class="trending-content thumbnail">
       <a href="{{post.url}}"><img src="{{site.github.url}}/img/{{post.image}}" class="img-responsive"></a>
       <span class="subtitle"><a href="{{post.url}}">{{post.title}}</a></span>
