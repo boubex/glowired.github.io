@@ -19,3 +19,21 @@ layout: default
     <p>What you read here might shape your reality about the world in a bitter way ,you dont have to believe everything yo read here,its all theories,how you feel or what you do  with the knowledge you get here is purely up to you and not our problem<a href="http://boubex.github.io/portfolio.github.io" target="_blank" class="portfolio"><span class="underline"></span></a> <a href="http://mutsinzi.github.io/portfolio.github.io" target="_blank" class="portfolio"><span class="underline"></span></a></p>
   </div>
 </div>
+
+<div class="post-wrap">
+  {% for post in site.posts %}
+  {% if post.label == 'conspirancy' %}
+  <div class="row post-glimpse">
+
+    <div class="col-md-4 col-md-push-8">
+      <a href="{{post.url}}"><img src="{{site.github.url}}/img/{{post.image}}" class="img-responsive"></a>
+  </div>
+
+  <div class="post-glimpse-text col-md-8 col-md-pull-4">
+    <a href="{{post.url}}"><h4>{{post.title}}</h4></a>
+    {{post.excerpt}}
+  </div>
+</div>
+   {% endif %}
+  {% endfor %}
+</div>
