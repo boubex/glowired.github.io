@@ -3,20 +3,23 @@ title: Tech News & Reviews
 layout: default
 ---
 
+
 <div class="divider text-center">
- <center><p>Reviews</p></center>
-  <img src="{{site.github.url}}/img/reviewicon.png">
+  <center><p>Gaming</p></center>
+  <img src="{{site.github.url}}/img/gamingicon.png">
 </div>
+
 
 
 
 
 <div class="post-wrap">
   {% for post in site.posts %}
-  {% if post.label == 'reviews' %}
+  {% if post.label == 'gaming' %}
   <div class="row post-glimpse">
 
     <div class="col-md-4 col-md-push-8">
+     <h4>gaming</h4>
       <a href="{{post.url}}"><img src="{{site.github.url}}/img/{{post.image}}" class="img-responsive"></a>
   </div>
 

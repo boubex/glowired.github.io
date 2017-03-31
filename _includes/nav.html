@@ -1,4 +1,4 @@
-<nav class="text-center">
+<nav class="text-center mainNav">
   <ul class="pull-right">
     
   
@@ -9,8 +9,8 @@
     <li><a  href="{{site.github.url}}/web.html"  class ="hvr-underline-from-center" >The web</a></li>
     <li><a  href="#"  class ="hvr-underline-from-center" onclick="alert()">Mobile</a></li>
     <li><a  href="#"  class ="hvr-underline-from-center" onclick="alert()">Finance</a></li>
-     <li><a href="#"  class ="hvr-underline-from-center" onclick="alert()">Kigali</a></li>
-     <li><a href="#"  class ="hvr-underline-from-center" onclick="alert()">Gaming</a></li>
+     
+     <li><a href="{{site.github.url}}/gaming.html"  class ="hvr-underline-from-center">Games</a></li>
      <li><a href="#"  class ="hvr-underline-from-center" onclick="alert()">Gear</a></li>
      <li><a href="#"  class ="hvr-underline-from-center" onclick="alert()">Jobs</a></li>
     <li><a href="{{site.github.url}}/about.html"  class ="hvr-underline-from-center">About</a></li>
@@ -19,3 +19,57 @@
       {% include social-icons.html %}
     </div>
 </nav>
+
+
+<nav class="subNav navbar navbar-default navbar-top navbar-custom">
+   <div class="container">
+       <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+           <span class="sr-only">Toggle navigation</span>Menu<i class="fa fa-bars"></i>
+       </button>
+       </div>
+
+       <!-- collect the nav links -->
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <ul class="container-fluid nav navbar-nav navbar-right">
+       <li class="hidden"><a href="index.html"></a></li>
+       <li><a  href="{{site.github.url}}/conspirancy.html" class ="hvr-overline-from-center">Conspirancy</a></li>
+       <li><a  href="{{site.github.url}}/reviews.html" class ="hvr-overline-from-center">Reviews</a></li>
+       <li><a  href="{{site.github.url}}/learn.html" class ="hvr-overline-from-center" ">learn</a></li>
+       <li><a  href="{{site.github.url}}/hack.html" class ="hvr-overline-from-center">Hack</a></li>
+       <li><a  href="{{site.github.url}}/web.html"  class ="hvr-underline-from-center" >The web</a></li>
+       <li><a  href="#"  class ="hvr-underline-from-center" onclick="alert()">Mobile</a></li>
+       <li><a  href="#"  class ="hvr-underline-from-center" onclick="alert()">Finance</a></li>
+      
+       <li><a href="{{site.github.url}}/gaming.html"  class ="hvr-underline-from-center">Games</a></li>
+       <li><a href="#"  class ="hvr-underline-from-center" onclick="alert()">Gear</a></li>
+       <li><a href="#"  class ="hvr-underline-from-center" onclick="alert()">Jobs</a></li>
+       <li><a href="{{site.github.url}}/about.html"  class ="hvr-underline-from-center">About</a></li>
+       </ul>
+       </div>
+   </div>
+</nav>
+
+<style>
+.subNav{
+    display: none !important;
+}
+.navbar-default{
+    border: none !important;
+}
+.navbar-toggle{
+    color: #fff !important;
+}
+@media only screen and (max-width: 1000px){
+    .mainNav{
+        display: none !important;
+    }
+    .subNav{
+        display: block !important;
+    }
+}
+</style>
+
+
+
+
