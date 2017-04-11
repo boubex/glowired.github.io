@@ -8,7 +8,6 @@ author: Abouba
 date:   2016-09-10 11:31:49 +0200
 categories:
 image: stealing.jpg
-
 ---
 
 
