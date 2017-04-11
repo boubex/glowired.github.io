@@ -4,7 +4,7 @@ title: Ubuntu's Heavy Announcement
 author: Mutsinzi
 categories:
 image: ubuntu.jpg
-tag : new1
+tag : new2
 ---
 
 Ubuntu's leader Mark Shuttleworth's news of discontinuing the Unity Desktop environment has been quite a shock. In addition to this, Ubuntu will also stop working on the Mir Convergence system.
