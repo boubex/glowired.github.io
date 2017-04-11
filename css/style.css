@@ -63,7 +63,7 @@ a:hover{
 
   .header-link{
     color:#fff;
-  
+
   }
 
   .site-brand-title{
@@ -114,8 +114,6 @@ nav a:hover{
 /* About */
 
 .site-about{
-    max-width: 960px;
-    margin: 0 auto !important;
     font-family: monospace;
     padding-bottom: 40px !important;
     border-bottom: 1px dotted #aaa;
