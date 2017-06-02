@@ -474,3 +474,7 @@ bottom: 0;
 right: 0;
 position: absolute;
 }
+.anonymous {
+  color: #20C20E;
+  font-weight: bolder;
+}
