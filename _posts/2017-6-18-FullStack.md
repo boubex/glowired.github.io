@@ -4,7 +4,7 @@ title: Full stack on a budjet with Angular Js
 author: Abouba
 date:   2017-06-17 11:31:49 +0200
 categories: web
-image: angular.png
+image: angularjs.png
 tag : new1
 ---
 
