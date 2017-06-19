@@ -27,7 +27,7 @@ Firebase has a real time database which means that update happen automatically h
 
 <img class = "img-responsive" src="{{site.github.url}}/img/gitlab.png">
 
-Now when you want to host your app, the best and secure solution would be git lab, which offers 10 GB of free space and free repositories ,which is insane in my opinion, and best of all they use Docker for build and completely build for angular js, which means your app will run smoothly as it runs locally, it lab is the perfect solution for getting your app from your local development to the world with augh spending a dime, isn’t that amazing
+Now when you want to host your app, the best and secure solution would be git lab, which offers 10 GB of free space and free repositories ,which is insane in my opinion, and best of all they use Docker for build and completely build for angular js, which means your app will run smoothly as it runs locally, git lab is the perfect solution for getting your app from your local development to the world with-ought spending a dime, isn’t that amazing
 
 # Security
 
