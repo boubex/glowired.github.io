@@ -8,7 +8,6 @@ author: Abouba
 date:   2016-12-24 01:10:49 +0200
 categories: jekyll update
 image: kali.jpg
-tag : new3
 label : learn
 ---
 

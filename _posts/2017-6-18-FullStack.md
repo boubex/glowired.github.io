@@ -5,7 +5,7 @@ author: Abouba
 date:   2017-06-17 11:31:49 +0200
 categories: web
 image: angular.png
-tag : new1
+tag : new3
 ---
 
 
@@ -35,7 +35,7 @@ Now when you want to host your app, the best and secure solution would be git la
 
 For security your app need to be encrypted to be safe from hackers out there , I would recommend lets encrypt which gives free HTTPS over your domain which you would normally pay at least 200$ a year from most domain providers , keep in mid it requires a bit of hacking to achieve this but any novice programer can do it
 
-#Cross platform development
+# Cross platform development
 
 If you know how to build websites then you already know how to build apps , and the best solution would be ionic frame work if you want to know more about ionic check out there website ,what I’m going to say about ionic is that every app build with ionic is built with a huge chunk of its code and functionalities are built with angular js, and ionic is fully integrates with fire base as its database , you see what’s happening here…, you can use one real time database for both your web app and mobile app which equals into a  complete full stack app
 
