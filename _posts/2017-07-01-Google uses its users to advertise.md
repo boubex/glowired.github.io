@@ -4,7 +4,7 @@ title: Google uses your private information to advertise
 author: Abouba
 date:   2017-06-30 11:31:49 +0200
 image: google.png
-tag : new1
+tag : new2
 label : conspirancy
 
 ---
